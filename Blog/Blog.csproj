@@ -1,0 +1,453 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{476876CE-1B87-4068-9A82-A58BC9359F9E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Blog</RootNamespace>
+    <AssemblyName>Blog</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="back\bostrap\css\bootstrap-grid.css" />
+    <Content Include="back\bostrap\css\bootstrap-grid.min.css" />
+    <Content Include="back\bostrap\css\bootstrap-reboot.css" />
+    <Content Include="back\bostrap\css\bootstrap-reboot.min.css" />
+    <Content Include="back\bostrap\css\bootstrap.css" />
+    <Content Include="back\bostrap\css\bootstrap.min.css" />
+    <Content Include="back\bostrap\js\bootstrap.bundle.js" />
+    <Content Include="back\bostrap\js\bootstrap.bundle.min.js" />
+    <Content Include="back\bostrap\js\bootstrap.js" />
+    <Content Include="back\bostrap\js\bootstrap.min.js" />
+    <Content Include="back\css\bootstrap-responsive.min.css" />
+    <Content Include="back\css\bootstrap-wysihtml5.css" />
+    <Content Include="back\css\bootstrap.min.css" />
+    <Content Include="back\css\colorpicker.css" />
+    <Content Include="back\css\datepicker.css" />
+    <Content Include="back\css\font-awesome.css" />
+    <Content Include="back\css\fullcalendar.css" />
+    <Content Include="back\css\jquery.easy-pie-chart.css" />
+    <Content Include="back\css\jquery.gritter.css" />
+    <Content Include="back\css\matrix-login.css" />
+    <Content Include="back\css\matrix-media.css" />
+    <Content Include="back\css\matrix-style.css" />
+    <Content Include="back\css\select2.css" />
+    <Content Include="back\css\uniform.css" />
+    <Content Include="back\font-awesome\css\font-awesome.css" />
+    <Content Include="back\font-awesome\fontawesome-webfont.svg" />
+    <Content Include="back\font-awesome\font\fontawesome-webfont.svg" />
+    <Content Include="back\img\breadcrumb.png" />
+    <Content Include="back\img\demo\av1.jpg" />
+    <Content Include="back\img\demo\av2.jpg" />
+    <Content Include="back\img\demo\av3.jpg" />
+    <Content Include="back\img\demo\av4.jpg" />
+    <Content Include="back\img\demo\av5.jpg" />
+    <Content Include="back\img\demo\demo-image1.jpg" />
+    <Content Include="back\img\demo\demo-image2.jpg" />
+    <Content Include="back\img\demo\demo-image3.jpg" />
+    <Content Include="back\img\demo\envelope.png" />
+    <Content Include="back\img\gallery\imgbox1.jpg" />
+    <Content Include="back\img\gallery\imgbox2.jpg" />
+    <Content Include="back\img\gallery\imgbox3.jpg" />
+    <Content Include="back\img\gallery\imgbox4.jpg" />
+    <Content Include="back\img\gallery\imgbox5.jpg" />
+    <Content Include="back\img\glyphicons-halflings-white.png" />
+    <Content Include="back\img\gritter.png" />
+    <Content Include="back\img\hue.png" />
+    <Content Include="back\img\icons\16\book.png" />
+    <Content Include="back\img\icons\16\cabinet.png" />
+    <Content Include="back\img\icons\16\calendar.png" />
+    <Content Include="back\img\icons\16\client.png" />
+    <Content Include="back\img\icons\16\database.png" />
+    <Content Include="back\img\icons\16\download.png" />
+    <Content Include="back\img\icons\16\graph.png" />
+    <Content Include="back\img\icons\16\home.png" />
+    <Content Include="back\img\icons\16\lock.png" />
+    <Content Include="back\img\icons\16\mail.png" />
+    <Content Include="back\img\icons\16\pdf.png" />
+    <Content Include="back\img\icons\16\people.png" />
+    <Content Include="back\img\icons\16\piechart.png" />
+    <Content Include="back\img\icons\16\search.png" />
+    <Content Include="back\img\icons\16\shopping-bag.png" />
+    <Content Include="back\img\icons\16\survey.png" />
+    <Content Include="back\img\icons\16\tag.png" />
+    <Content Include="back\img\icons\16\user.png" />
+    <Content Include="back\img\icons\16\wallet.png" />
+    <Content Include="back\img\icons\16\web.png" />
+    <Content Include="back\img\icons\32\book.png" />
+    <Content Include="back\img\icons\32\cabinet.png" />
+    <Content Include="back\img\icons\32\calendar.png" />
+    <Content Include="back\img\icons\32\client.png" />
+    <Content Include="back\img\icons\32\dashboard.png" />
+    <Content Include="back\img\icons\32\database.png" />
+    <Content Include="back\img\icons\32\download.png" />
+    <Content Include="back\img\icons\32\graph.png" />
+    <Content Include="back\img\icons\32\home.png" />
+    <Content Include="back\img\icons\32\lock.png" />
+    <Content Include="back\img\icons\32\mail.png" />
+    <Content Include="back\img\icons\32\pdf.png" />
+    <Content Include="back\img\icons\32\people.png" />
+    <Content Include="back\img\icons\32\piechart.png" />
+    <Content Include="back\img\icons\32\search.png" />
+    <Content Include="back\img\icons\32\shopping-bag.png" />
+    <Content Include="back\img\icons\32\survey.png" />
+    <Content Include="back\img\icons\32\tag.png" />
+    <Content Include="back\img\icons\32\user.png" />
+    <Content Include="back\img\icons\32\wallet.png" />
+    <Content Include="back\img\icons\32\web.png" />
+    <Content Include="back\img\larrow.png" />
+    <Content Include="back\img\line.png" />
+    <Content Include="back\img\logo.png" />
+    <Content Include="back\img\menu-active.png" />
+    <Content Include="back\img\rarrow.png" />
+    <Content Include="back\img\saturation.png" />
+    <Content Include="back\img\select2.png" />
+    <Content Include="back\img\spinner.gif" />
+    <Content Include="back\img\sprite.png" />
+    <Content Include="back\js\bootstrap-colorpicker.js" />
+    <Content Include="back\js\bootstrap-datepicker.js" />
+    <Content Include="back\js\bootstrap-wysihtml5.js" />
+    <Content Include="back\js\bootstrap.js" />
+    <Content Include="back\js\bootstrap.min.js" />
+    <Content Include="back\js\excanvas.min.js" />
+    <Content Include="back\js\fullcalendar.min.js" />
+    <Content Include="back\js\jquery.dataTables.min.js" />
+    <Content Include="back\js\jquery.easy-pie-chart.js" />
+    <Content Include="back\js\jquery.flot.crosshair.js" />
+    <Content Include="back\js\jquery.flot.min.js" />
+    <Content Include="back\js\jquery.flot.pie.js" />
+    <Content Include="back\js\jquery.flot.pie.min.js" />
+    <Content Include="back\js\jquery.flot.resize.min.js" />
+    <Content Include="back\js\jquery.flot.stack.js" />
+    <Content Include="back\js\jquery.gritter.min.js" />
+    <Content Include="back\js\jquery.min.js" />
+    <Content Include="back\js\jquery.peity.min.js" />
+    <Content Include="back\js\jquery.ui.custom.js" />
+    <Content Include="back\js\jquery.uniform.js" />
+    <Content Include="back\js\jquery.validate.js" />
+    <Content Include="back\js\jquery.wizard.js" />
+    <Content Include="back\js\masked.js" />
+    <Content Include="back\js\matrix.calendar.js" />
+    <Content Include="back\js\matrix.charts.js" />
+    <Content Include="back\js\matrix.chat.js" />
+    <Content Include="back\js\matrix.dashboard.js" />
+    <Content Include="back\js\matrix.form_common.js" />
+    <Content Include="back\js\matrix.form_validation.js" />
+    <Content Include="back\js\matrix.interface.js" />
+    <Content Include="back\js\matrix.js" />
+    <Content Include="back\js\matrix.login.js" />
+    <Content Include="back\js\matrix.popover.js" />
+    <Content Include="back\js\matrix.tables.js" />
+    <Content Include="back\js\matrix.wizard.js" />
+    <Content Include="back\js\select2.min.js" />
+    <Content Include="back\js\wysihtml5-0.3.0.js" />
+    <Content Include="css\coolblue.css" />
+    <Content Include="GestionMenu.aspx" />
+    <Content Include="GestionPost.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="GstionUser.aspx" />
+    <Content Include="images\back-to-top.png" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\clock.png" />
+    <Content Include="images\comment.png" />
+    <Content Include="images\content-bg.png" />
+    <Content Include="images\content.png" />
+    <Content Include="images\current.png" />
+    <Content Include="images\date-bg.png" />
+    <Content Include="images\dotted-lines.png" />
+    <Content Include="images\footer-line.png" />
+    <Content Include="images\gravatar.jpg" />
+    <Content Include="images\header-bg.png" />
+    <Content Include="images\img-post.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\permalink.png" />
+    <Content Include="images\quote.png" />
+    <Content Include="images\rss32.png" />
+    <Content Include="images\sample-image.jpg" />
+    <Content Include="images\search.png" />
+    <Content Include="images\selected.png" />
+    <Content Include="images\social_email.png" />
+    <Content Include="images\social_facebook.png" />
+    <Content Include="images\social_rss.png" />
+    <Content Include="images\social_twitter.png" />
+    <Content Include="images\speech-bubble.png" />
+    <Content Include="images\tag.png" />
+    <Content Include="images\thumb.png" />
+    <Content Include="images\user.png" />
+    <Content Include="index.aspx" />
+    <Content Include="js\jquery-1.6.1.min.js" />
+    <Content Include="js\scrollToTop.js" />
+    <Content Include="login.aspx" />
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <Content Include="RSS.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="blog.aspx" />
+    <Content Include="archive.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bloguser.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="category.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="comment.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion.Master.cs">
+      <DependentUpon>Gestion.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gestion.Master.designer.cs">
+      <DependentUpon>Gestion.Master</DependentUpon>
+    </Compile>
+    <Compile Include="GestionMenu.aspx.cs">
+      <DependentUpon>GestionMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionMenu.aspx.designer.cs">
+      <DependentUpon>GestionMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionPost.aspx.cs">
+      <DependentUpon>GestionPost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionPost.aspx.designer.cs">
+      <DependentUpon>GestionPost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GstionUser.aspx.cs">
+      <DependentUpon>GstionUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GstionUser.aspx.designer.cs">
+      <DependentUpon>GstionUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuLink.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="poste.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Blog.Master.cs">
+      <DependentUpon>Blog.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog.Master.designer.cs">
+      <DependentUpon>Blog.Master</DependentUpon>
+    </Compile>
+    <Compile Include="blog.aspx.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="blog.aspx.designer.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="archive.aspx.cs">
+      <DependentUpon>archive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="archive.aspx.designer.cs">
+      <DependentUpon>archive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RSS.aspx.cs">
+      <DependentUpon>RSS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RSS.aspx.designer.cs">
+      <DependentUpon>RSS.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="Gestion.Master" />
+    <Content Include="back\bostrap\css\bootstrap-grid.css.map" />
+    <Content Include="back\bostrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="back\bostrap\css\bootstrap-reboot.css.map" />
+    <Content Include="back\bostrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="back\bostrap\css\bootstrap.css.map" />
+    <Content Include="back\bostrap\css\bootstrap.min.css.map" />
+    <Content Include="back\bostrap\js\bootstrap.bundle.js.map" />
+    <Content Include="back\bostrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="back\bostrap\js\bootstrap.js.map" />
+    <Content Include="back\bostrap\js\bootstrap.min.js.map" />
+    <Content Include="back\font-awesome\fontawesome-webfont.eot" />
+    <Content Include="back\font-awesome\fontawesome-webfont.ttf" />
+    <Content Include="back\font-awesome\fontawesome-webfont.woff" />
+    <Content Include="back\font-awesome\FontAwesome.otf" />
+    <Content Include="back\font-awesome\font\fontawesome-webfont.eot" />
+    <Content Include="back\font-awesome\font\fontawesome-webfont.ttf" />
+    <Content Include="back\font-awesome\font\fontawesome-webfont.woff" />
+    <Content Include="back\font-awesome\font\FontAwesome.otf" />
+    <Content Include="back\img\demo\Thumbs.db" />
+    <Content Include="back\img\icons\32\Thumbs.db" />
+    <Content Include="back\img\Thumbs.db" />
+    <None Include="packages.config" />
+    <Content Include="Blog.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="back\bootstrap-4.3.1-dist\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49711</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49711/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

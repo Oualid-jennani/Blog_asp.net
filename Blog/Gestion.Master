@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Gestion.master.cs" Inherits="Blog.Gestion"%>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+<title> Admin Blog </title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="back/css/bootstrap.min.css" />
+<link rel="stylesheet" href="back/css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="back/css/fullcalendar.css" />
+<link rel="stylesheet" href="back/css/matrix-style.css" />
+<link rel="stylesheet" href="back/css/matrix-media.css" />
+<link href="back/font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link rel="stylesheet" href="back/css/jquery.gritter.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!--Header-part-->
+<div id="header">
+  <h1><a href="dashboard.html">Admin <%=Session["user"] %></a></h1>
+</div>
+<!--close-Header-part--> 
+
+
+<!--top-Header-menu-->
+<div id="user-nav" class="navbar navbar-inverse">
+  <ul class="nav">
+    <li  class="dropdown" id="profile-messages" ><a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle"><i class="icon icon-user"></i>  <span class="text">Welcome <%=Session["user"] %></span><b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="#"><i class="icon-user"></i> My Profile</a></li>
+        <li class="divider"></li>
+        <li><a href="#"><i class="icon-check"></i> My Tasks</a></li>
+        <li class="divider"></li>
+        <li><a href="index.aspx?deco=1"><i class="icon-key"></i> Log Out</a></li>
+      </ul>
+    </li>
+ 
+    <li class=""><a title="" href="#"><i class="icon icon-cog"></i> <span class="text">Settings</span></a></li>
+    <li class=""><a title="" href="index.aspx?deco=1"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+  </ul>
+</div>
+  
+<!--close-top-Header-menu-->
+<!--start-top-serch-->
+<div id="search">
+  <input type="text" placeholder="Search here..."/>
+  <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button>
+</div>
+<!--close-top-serch-->
+<!--sidebar-menu-->
+<div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-home"></i> Dashboard</a>
+  <ul>
+    <li class="active"><a href="GestionPost.aspx"><i class="icon-list-alt"></i> <span>Gestion des articles</span></a> </li>
+    <li> <a href="GestionMenu.aspx"><i class="icon-list-ul"></i> <span>Gestion du menu</span></a> </li>
+    <li> <a href="GstionUser.aspx"><i class="icon-group"></i> <span>Gestion des utilisateurs</span></a> </li>
+    <li><a href="tables.html"><i class="icon-bar-chart"></i><span>Statistiques</span></a></li>
+
+    <li class="content"> <span>taille des tout  article</span>
+      <div class="progress progress-mini progress-danger active progress-striped">
+        <div style="width: 15%;" class="bar"></div>
+      </div>
+      <span class="percent">15%</span>
+      <div class="stat">2142.94 / 14000 MB</div>
+    </li>
+    <li class="content"> <span>espace sique</span>
+      <div class="progress progress-mini active progress-striped">
+        <div style="width: 87%;" class="bar"></div>
+      </div>
+      <span class="percent">87%</span>
+      <div class="stat">604.44 / 4000 MB</div>
+    </li>
+  </ul>
+</div>
+<!--sidebar-menu-->
+
+<!--main-container-part-->
+<div id="content">
+<!--breadcrumbs-->
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="index.html" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a></div>
+  </div>
+<!--End-breadcrumbs-->
+
+<!--Action boxes hada howa l centent !!!!!!!!!!!!!!!!!!!! -->
+		<asp:ContentPlaceHolder ID="gestion" runat="server">
+
+
+        </asp:ContentPlaceHolder>
+
+
+</div>
+
+<!--end-main-container-part-->
+
+<!--Footer-part-->
+
+<div class="row-fluid">
+  <div id="footer" class="span12"> 2013 &copy; Matrix Admin. Brought to you by <a href="http://themedesigner.in">Themedesigner.in</a> </div>
+</div>
+
+<!--end-Footer-part-->
+
+<script src="back/js/excanvas.min.js"></script> 
+<script src="back/js/jquery.min.js"></script> 
+<script src="back/js/jquery.ui.custom.js"></script> 
+<script src="back/js/bootstrap.min.js"></script> 
+<script src="back/js/jquery.flot.min.js"></script> 
+<script src="back/js/jquery.flot.resize.min.js"></script> 
+<script src="back/js/jquery.peity.min.js"></script> 
+<script src="back/js/fullcalendar.min.js"></script> 
+<script src="back/js/matrix.js"></script> 
+<script src="back/js/matrix.dashboard.js"></script> 
+<!-- dddd<script src="js/jquery.gritter.min.js"></script> -->
+<script src="back/js/matrix.interface.js"></script> 
+<script src="back/js/matrix.chat.js"></script> 
+<script src="back/js/jquery.validate.js"></script> 
+<script src="back/js/matrix.form_validation.js"></script> 
+<script src="back/js/jquery.wizard.js"></script> 
+<script src="back/js/jquery.uniform.js"></script> 
+<script src="back/js/select2.min.js"></script> 
+<script src="back/js/matrix.popover.js"></script> 
+<script src="back/js/jquery.dataTables.min.js"></script> 
+<script src="back/js/matrix.tables.js"></script> 
+
+<script type="text/javascript">
+  // This function is called from the pop-up menus to transfer to
+  // a different page. Ignore if the value returned is a null string:
+  function goPage (newURL) {
+
+      // if url is empty, skip the menu dividers and reset the menu selection to default
+      if (newURL != "") {
+      
+          // if url is "-", it is this page -- reset the menu:
+          if (newURL == "-" ) {
+              resetMenu();            
+          } 
+          // else, send page to designated URL            
+          else {  
+            document.location.href = newURL;
+          }
+      }
+  }
+
+// resets the menu selection upon entry to this page:
+function resetMenu() {
+   document.gomenu.selector.selectedIndex = 2;
+}
+</script>
+</body>
+</html>
+

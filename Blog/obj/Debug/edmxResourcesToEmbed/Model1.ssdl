@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="blogModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="bloguser">
+    <Key>
+      <PropertyRef Name="IdB" />
+    </Key>
+    <Property Name="IdB" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="255" />
+    <Property Name="pswrd" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="IdC" />
+    </Key>
+    <Property Name="IdC" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="names" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="comment">
+    <Key>
+      <PropertyRef Name="IdCom" />
+    </Key>
+    <Property Name="IdCom" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nameCom" Type="varchar" MaxLength="255" />
+    <Property Name="email" Type="varchar" MaxLength="255" />
+    <Property Name="messageC" Type="text" />
+    <Property Name="posteId" Type="smallint" />
+  </EntityType>
+  <EntityType Name="menuLink">
+    <Key>
+      <PropertyRef Name="IdM" />
+    </Key>
+    <Property Name="IdM" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nameM" Type="varchar" MaxLength="255" />
+    <Property Name="linkOrder" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="poste">
+    <Key>
+      <PropertyRef Name="idp" />
+    </Key>
+    <Property Name="idp" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="255" />
+    <Property Name="content" Type="text" />
+    <Property Name="image" Type="varchar" MaxLength="255" />
+    <Property Name="datePublication" Type="date" />
+    <Property Name="categoryId" Type="smallint" />
+    <Property Name="userId" Type="smallint" />
+    <Property Name="viewCount" Type="int" />
+  </EntityType>
+  <Association Name="FK__comment__posteId__5812160E">
+    <End Role="poste" Type="Self.poste" Multiplicity="0..1" />
+    <End Role="comment" Type="Self.comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="poste">
+        <PropertyRef Name="idp" />
+      </Principal>
+      <Dependent Role="comment">
+        <PropertyRef Name="posteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__poste__categoryI__5441852A">
+    <End Role="category" Type="Self.category" Multiplicity="0..1" />
+    <End Role="poste" Type="Self.poste" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="category">
+        <PropertyRef Name="IdC" />
+      </Principal>
+      <Dependent Role="poste">
+        <PropertyRef Name="categoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__poste__userId__5535A963">
+    <End Role="bloguser" Type="Self.bloguser" Multiplicity="0..1" />
+    <End Role="poste" Type="Self.poste" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bloguser">
+        <PropertyRef Name="IdB" />
+      </Principal>
+      <Dependent Role="poste">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="blogModelStoreContainer">
+    <EntitySet Name="bloguser" EntityType="Self.bloguser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="category" EntityType="Self.category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="comment" EntityType="Self.comment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="menuLink" EntityType="Self.menuLink" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="poste" EntityType="Self.poste" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__comment__posteId__5812160E" Association="Self.FK__comment__posteId__5812160E">
+      <End Role="poste" EntitySet="poste" />
+      <End Role="comment" EntitySet="comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__poste__categoryI__5441852A" Association="Self.FK__poste__categoryI__5441852A">
+      <End Role="category" EntitySet="category" />
+      <End Role="poste" EntitySet="poste" />
+    </AssociationSet>
+    <AssociationSet Name="FK__poste__userId__5535A963" Association="Self.FK__poste__userId__5535A963">
+      <End Role="bloguser" EntitySet="bloguser" />
+      <End Role="poste" EntitySet="poste" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

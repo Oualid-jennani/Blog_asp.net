@@ -1,0 +1,122 @@
+C:\Users\Walid\source\repos\Blog\Blog\bin\Blog.dll.config
+C:\Users\Walid\source\repos\Blog\Blog\bin\Blog.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\Blog.pdb
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\csc.exe
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\csc.exe.config
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\csc.rsp
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\csi.exe
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\csi.exe.config
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\csi.rsp
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.AppContext.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Console.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.IO.Compression.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Security.Claims.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.ValueTuple.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\vbc.exe
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\vbc.exe.config
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\vbc.rsp
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\VBCSCompiler.exe
+C:\Users\Walid\source\repos\Blog\Blog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Walid\source\repos\Blog\Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Walid\source\repos\Blog\Blog\obj\Debug\Blog.csprojAssemblyReference.cache
+C:\Users\Walid\source\repos\Blog\Blog\obj\Debug\Blog.csproj.CoreCompileInputs.cache
+C:\Users\Walid\source\repos\Blog\Blog\obj\Debug\Blog.csproj.CopyComplete
+C:\Users\Walid\source\repos\Blog\Blog\obj\Debug\Blog.dll
+C:\Users\Walid\source\repos\Blog\Blog\obj\Debug\Blog.pdb
+C:\Users\Walid\source\repos\Blog\Blog\bin\EntityFramework.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\EntityFramework.SqlServer.dll
+C:\Users\Walid\source\repos\Blog\Blog\bin\EntityFramework.xml
+C:\Users\Walid\source\repos\Blog\Blog\bin\EntityFramework.SqlServer.xml
+C:\Users\Walid\source\repos\Blog\Blog\bin\fr\EntityFramework.resources.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\Blog.dll.config
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\Blog.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\Blog.pdb
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\csc.exe
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\csc.exe.config
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\csc.rsp
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\csi.exe
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\csi.exe.config
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\csi.rsp
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.AppContext.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Console.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.IO.Compression.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Security.Claims.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.ValueTuple.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\vbc.exe
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\vbc.exe.config
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\vbc.rsp
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\VBCSCompiler.exe
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\EntityFramework.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\EntityFramework.SqlServer.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\EntityFramework.xml
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\EntityFramework.SqlServer.xml
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\bin\fr\EntityFramework.resources.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\obj\Debug\Blog.csproj.CoreCompileInputs.cache
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\obj\Debug\Blog.csproj.CopyComplete
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\obj\Debug\Blog.dll
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\obj\Debug\Blog.pdb
+C:\Users\Walid\Desktop\Cours de développeur\ASP.NET\Exercice\Serie 04\Blog\Blog\obj\Debug\Blog.csprojAssemblyReference.cache

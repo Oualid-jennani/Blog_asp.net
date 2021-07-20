@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="blogModelStoreContainer" CdmEntityContainer="blogEntities">
+    <EntitySetMapping Name="bloguser">
+      <EntityTypeMapping TypeName="blogModel.bloguser">
+        <MappingFragment StoreEntitySet="bloguser">
+          <ScalarProperty Name="IdB" ColumnName="IdB" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="pswrd" ColumnName="pswrd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="category">
+      <EntityTypeMapping TypeName="blogModel.category">
+        <MappingFragment StoreEntitySet="category">
+          <ScalarProperty Name="IdC" ColumnName="IdC" />
+          <ScalarProperty Name="names" ColumnName="names" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="comment">
+      <EntityTypeMapping TypeName="blogModel.comment">
+        <MappingFragment StoreEntitySet="comment">
+          <ScalarProperty Name="IdCom" ColumnName="IdCom" />
+          <ScalarProperty Name="nameCom" ColumnName="nameCom" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="messageC" ColumnName="messageC" />
+          <ScalarProperty Name="posteId" ColumnName="posteId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="menuLink">
+      <EntityTypeMapping TypeName="blogModel.menuLink">
+        <MappingFragment StoreEntitySet="menuLink">
+          <ScalarProperty Name="IdM" ColumnName="IdM" />
+          <ScalarProperty Name="nameM" ColumnName="nameM" />
+          <ScalarProperty Name="linkOrder" ColumnName="linkOrder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="poste">
+      <EntityTypeMapping TypeName="blogModel.poste">
+        <MappingFragment StoreEntitySet="poste">
+          <ScalarProperty Name="idp" ColumnName="idp" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="datePublication" ColumnName="datePublication" />
+          <ScalarProperty Name="categoryId" ColumnName="categoryId" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="viewCount" ColumnName="viewCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
